@@ -515,7 +515,7 @@ class IMUMouse:
 
 def main():
     #Call the practice UI
-    #subprocess.Popen([sys.executable, "ui.py"])
+    #subprocess.Popen([sys.executable, "PyGame_UI.py"])
 
     # portName = 'COM5'
     portName = 'COM16'
