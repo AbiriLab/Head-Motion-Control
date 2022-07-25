@@ -369,7 +369,7 @@ class IMUMouse:
 
 def main():
 
-    subprocess.Popen("PyGame_UI.py")
+    #subprocess.Popen(["PyGame_UI.py"])
 
     portName = 'COM16'
     baudRate = 250000
