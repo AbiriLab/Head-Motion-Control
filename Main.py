@@ -144,7 +144,8 @@ class IMUMouse:
         os.environ['SDL_VIDEO_WINDOW_POS'] = "%d, %d" % (0,0)
         pg.display.set_mode((500,500))
         pg.display.set_caption("Control Interface")
-        #runUI = UI(logData)
+        #
+        # runUI = UI(logData)
 
         self.pos = list(self.ls[4])
         self.pos = [-0.3, 0, 0.2]
@@ -367,6 +368,8 @@ class IMUMouse:
 
 
 def main():
+
+    subprocess.Popen("PyGame_UI.py")
 
     portName = 'COM16'
     baudRate = 250000
